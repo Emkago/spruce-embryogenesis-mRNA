@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+source $(dirname $0)/generic_wrapper.sh
+if [[ -v KOGIA_MINIMAP2_TAG ]]
+then
+  gen_docker bschiffthaler/minimap2:$KOGIA_MINIMAP2_TAG $@
+else
+  gen_docker bschiffthaler/minimap2:latest $@
+fi

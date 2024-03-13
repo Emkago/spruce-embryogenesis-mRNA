@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+source $(dirname $0)/generic_wrapper.sh
+if [[ -v KOGIA_BWA_TAG ]]
+then
+  gen_docker bschiffthaler/bwa:$KOGIA_BWA_TAG $@
+else
+  gen_docker bschiffthaler/bwa:latest $@
+fi
