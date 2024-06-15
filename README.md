@@ -1,6 +1,8 @@
 # spruce-embryogenesis-mRNA
 
-This repository contains a collection of scripts used for exploratory analysis of data from spruce somatic and zygotic embryogenesis published in the article A transcriptome atlas of zygotic and somatic embryogenesis in Norway spruce (Stojkovic et al., 2024). 
+This repository contains a collection of scripts used for exploratory analysis of data from spruce somatic and zygotic embryogenesis published in the article A transcriptome atlas of zygotic and somatic embryogenesis in Norway spruce (Stojkovic et al., 2024).
+
+If you came here to re-analyse the data, you probably went through a project that took many lines of code, provided you with new knowledge, but also with a realization that it could be organized in a better way. Analysis in this project might not be easily reporoducible due to various reasons, but the code serves as a pretty detailed extension to the section Experimental procedures in the article. However, if you are interested in further details or have a question, contact me and I will do my best to help. 
 
 ## Summary 
 
